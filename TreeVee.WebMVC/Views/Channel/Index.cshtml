@@ -1,0 +1,113 @@
+﻿@model IEnumerable<TreeVee.Models.ChannelListItem>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h1>@ViewBag.GenreType</h1>
+
+<div class="genreList">
+            <a href="@Url.Action("Index", "Channel", new { GenreType = "comedy"})">
+                <h5 class="genreButton">comedy</h5>
+            </a>
+            <a href="@Url.Action("Index", "Channel", new { GenreType = "food"})">
+                <h5 class="genreButton">food</h5>
+            </a>
+            <a href="@Url.Action("Index", "Channel", new { GenreType = "lifestyle"})">
+                <h5 class="genreButton">lifestyle</h5>
+            </a>
+            <a href="@Url.Action("Index", "Channel", new { GenreType = "movies"})">
+                <h5 class="genreButton">movies</h5>
+            </a>
+            <a href="@Url.Action("Index", "Channel", new { GenreType = "music"})">
+                <h5 class="genreButton">music</h5>
+            </a>
+            <a href="@Url.Action("Index", "Channel", new { GenreType = "nature"})">
+                <h5 class="genreButton">nature</h5>
+            </a>
+            <a href="@Url.Action("Index", "Channel", new { GenreType = "news"})">
+                <h5 class="genreButton">news</h5>
+            </a>
+            <a href="@Url.Action("Index", "Channel", new { GenreType = "sports"})">
+                <h5 class="genreButton">sports</h5>
+            </a>
+            <a href="@Url.Action("Index", "Channel", new { GenreType = "tech"})">
+                <h5 class="genreButton">tech</h5>
+            </a>
+            <a href="@Url.Action("Index", "Channel", new { GenreType = "tv"})">
+                <h5 class="genreButton">& tv</h5>
+            </a>
+</div>
+
+<div class="genreNavButtonDiv">
+
+    <div @*class="centerButtons"*@>
+        @*<a href="@Url.Action("Index", "Channel", new { GenreType = "comedy"})">
+                <img class="genreImgButtons" src="~/Content/img/comedy.png" alt="TreeVee">
+            </a>
+            <a href="@Url.Action("Index", "Channel", new { GenreType = "food"})">
+                <img class="genreImgButtons" src="~/Content/img/food.png" alt="TreeVee">
+            </a>
+            <a href="@Url.Action("Index", "Channel", new { GenreType = "lifestyle"})">
+                <img class="genreImgButtons" src="~/Content/img/lifestyle.png" alt="TreeVee">
+            </a>
+            <a href="@Url.Action("Index", "Channel", new { GenreType = "movies"})">
+                <img class="genreImgButtons" src="~/Content/img/movies.png" alt="TreeVee">
+            </a>
+            <a href="@Url.Action("Index", "Channel", new { GenreType = "music"})">
+                <img class="genreImgButtons" src="~/Content/img/music.png" alt="TreeVee">
+            </a>
+            <a href="@Url.Action("Index", "Channel", new { GenreType = "nature"})">
+                <img class="genreImgButtons" src="~/Content/img/nature.png" alt="TreeVee">
+            </a>
+            <a href="@Url.Action("Index", "Channel", new { GenreType = "news"})">
+                <img class="genreImgButtons" src="~/Content/img/news.png" alt="TreeVee">
+            </a>
+            <a href="@Url.Action("Index", "Channel", new { GenreType = "sports"})">
+                <img class="genreImgButtons" src="~/Content/img/sports.png" alt="TreeVee">
+            </a>
+            <a href="@Url.Action("Index", "Channel", new { GenreType = "tech"})">
+                <img class="genreImgButtons" src="~/Content/img/tech.png" alt="TreeVee">
+            </a>
+            <a href="@Url.Action("Index", "Channel", new { GenreType = "tv"})">
+                <img class="genreImgButtons" src="~/Content/img/tv.png" alt="TreeVee">
+            </a>*@
+        <a href="@Url.Action("Index", "Channel", new { GenreType = "all"})">
+            <img class="genreImgButtons" src="~/Content/img/treevee.png" alt="TreeVee">
+        </a>
+        <a href="#top" >
+            <img class="genreImgButtons" src="~/Content/img/top.png" alt="TreeVee">
+        </a>
+    </div>
+
+</div>
+
+<table class="table" id="top">
+    <tr class="header">
+        <th width="30%">
+        </th>
+        <th width="30%">
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr class="spacer">
+            <td class="spacer" colspan="2"></td>
+        </tr>
+        <tr class="topRow">
+            <td colspan="1" class="tdTopLeft">
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td class="tdChannel tdTopRight" colspan="1" rowspan="2">
+                @Html.DisplayFor(modelItem => item.Number)
+            </td>
+        </tr>
+        <tr class="bottomRow">
+            <td class="description tdBottom" colspan="1">
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+        </tr>
+    }
+
+</table>

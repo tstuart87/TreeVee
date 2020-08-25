@@ -1,0 +1,16 @@
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Data\bin\Debug\TreeVee.Data.dll.config
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Data\bin\Debug\TreeVee.Data.dll
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Data\bin\Debug\TreeVee.Data.pdb
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Data\bin\Debug\EntityFramework.dll
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Data\bin\Debug\EntityFramework.xml
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Data\obj\Debug\TreeVee.Data.csprojAssemblyReference.cache
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Data\obj\Debug\TreeVee.Data.csproj.CoreCompileInputs.cache
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Data\obj\Debug\TreeVee.Data.csproj.CopyComplete
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Data\obj\Debug\TreeVee.Data.dll
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Data\obj\Debug\TreeVee.Data.pdb

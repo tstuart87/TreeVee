@@ -1,0 +1,160 @@
+﻿body {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: black;
+    font-family: LuzSans-Book, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+hr {
+    height: 0 !important;
+    color: black;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 30%;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+h1 {
+    text-align: right;
+    color: navajowhite;
+}
+
+img.genreImgButtons {
+    width: 30%;
+    padding: 4px;
+    opacity: 0.6;
+}
+
+    img.genreImgButtons:hover {
+        opacity: 0.9;
+    }
+
+div.genreNavButtonDiv {
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    background-color: transparent;
+}
+
+tr {
+    border: none !important;
+}
+
+.spacer, th {
+    border: none !important;
+}
+
+td {
+    color: navajowhite;
+    font-size: 15px;
+}
+
+    td.tdChannel {
+        font-size: 33px;
+        color: #cc6a6a;
+        text-align: right;
+    }
+
+    td.description {
+        font-size: 12px;
+        color: #cc6a6a;
+        border-top: none !important;
+    }
+
+tr.header {
+    border: 0.01em ridge #ab9472;
+}
+
+#top > tbody > tr > td {
+    border-top: 0.01em ridge transparent;
+}
+
+tr.topRow {
+    /*    background-color: #322d2d;*/
+    background-color: transparent;
+}
+
+tr.bottomRow {
+    /*    background-color: #322d2d;*/
+    background-color: transparent;
+}
+
+td.tdTopLeft {
+    /*    border-top-left-radius: 12px;*/
+    border-left: 0.01em ridge black;
+    border: 0.01em ridge black !important;
+    background-color: #322d2d;
+}
+
+td.tdTopRight {
+    /*    border-top-right-radius: 12px;*/
+    /*    border-bottom-right-radius: 12px;*/
+    border-right: 0.01em ridge black;
+    border-top: 0.01em ridge black;
+    border-bottom: 0.01em ridge black;
+    background-color: #1a1717;
+}
+
+td.tdBottom {
+    /*    border-bottom-left-radius: 12px;*/
+    border-bottom: 0.01em ridge black;
+    border-left: 0.01em ridge black;
+    background-color: #452727;
+}
+
+h5.genreButton {
+    padding: 10px;
+    margin: 15px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border-radius: 0;
+    text-align: center;
+    border: 0.01em dotted #ab9472;
+    color: navajowhite;
+    opacity: 0.8;
+}
+
+    h5.genreButton:hover {
+        text-transform: none !important;
+        text-decoration: none !important;
+        background-color: #1c1010;
+        /*        border: 0.01em dotted #b50003;*/
+        opacity: 1.0;
+    }
+
+div.genreList {
+    position: fixed;
+    left: 0;
+    top: 10px;
+    width: 30%;
+}
+
+a {
+    text-transform: none !important;
+    text-decoration: none !important;
+    color: white;
+}
+
+    a:hover {
+        color: wheat;
+    }

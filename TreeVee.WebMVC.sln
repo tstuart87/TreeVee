@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeVee.WebMVC", "TreeVee.WebMVC\TreeVee.WebMVC.csproj", "{18779531-3716-4B7B-AF3B-9840B8596CD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeVee.Data", "TreeVee.Data\TreeVee.Data.csproj", "{81537377-E672-4D4B-954C-80137BB0D0B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeVee.Models", "TreeVee.Models\TreeVee.Models.csproj", "{46E9285D-5ED6-4C94-8F43-3CA77534F5ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeVee.Services", "TreeVee.Services\TreeVee.Services.csproj", "{2631155D-A12A-417F-80F9-7554B74C707D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeVee.Contracts", "TreeVee.Contracts\TreeVee.Contracts.csproj", "{5F6B1F87-5EDC-4126-8D3A-6200B7C864F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18779531-3716-4B7B-AF3B-9840B8596CD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18779531-3716-4B7B-AF3B-9840B8596CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18779531-3716-4B7B-AF3B-9840B8596CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18779531-3716-4B7B-AF3B-9840B8596CD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81537377-E672-4D4B-954C-80137BB0D0B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81537377-E672-4D4B-954C-80137BB0D0B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81537377-E672-4D4B-954C-80137BB0D0B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81537377-E672-4D4B-954C-80137BB0D0B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46E9285D-5ED6-4C94-8F43-3CA77534F5ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E9285D-5ED6-4C94-8F43-3CA77534F5ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E9285D-5ED6-4C94-8F43-3CA77534F5ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E9285D-5ED6-4C94-8F43-3CA77534F5ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2631155D-A12A-417F-80F9-7554B74C707D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2631155D-A12A-417F-80F9-7554B74C707D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2631155D-A12A-417F-80F9-7554B74C707D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2631155D-A12A-417F-80F9-7554B74C707D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F6B1F87-5EDC-4126-8D3A-6200B7C864F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F6B1F87-5EDC-4126-8D3A-6200B7C864F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F6B1F87-5EDC-4126-8D3A-6200B7C864F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F6B1F87-5EDC-4126-8D3A-6200B7C864F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFA793F2-D601-4409-80ED-B37322A609D1}
+	EndGlobalSection
+EndGlobal

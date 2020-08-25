@@ -1,0 +1,16 @@
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Contracts\bin\Debug\TreeVee.Contracts.dll.config
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Contracts\bin\Debug\TreeVee.Contracts.dll
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Contracts\bin\Debug\TreeVee.Contracts.pdb
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Contracts\bin\Debug\EntityFramework.dll
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Contracts\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Contracts\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Contracts\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Contracts\bin\Debug\EntityFramework.xml
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Contracts\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Contracts\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Contracts\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Contracts\obj\Debug\TreeVee.Contracts.csprojAssemblyReference.cache
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Contracts\obj\Debug\TreeVee.Contracts.csproj.CoreCompileInputs.cache
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Contracts\obj\Debug\TreeVee.Contracts.csproj.CopyComplete
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Contracts\obj\Debug\TreeVee.Contracts.dll
+C:\Projects\TreeVee\TreeVee.WebMVC\TreeVee.Contracts\obj\Debug\TreeVee.Contracts.pdb
